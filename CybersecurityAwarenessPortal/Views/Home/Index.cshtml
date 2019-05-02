@@ -76,22 +76,18 @@
                 <a class="btn btn-info" href="@Url.Action("ContentView","Content")" @*href="https://go.microsoft.com/fwlink/?LinkId=301865"*@>Learn Modules &raquo;</a>
             </div>
         </div>
+        <div class="col-sm-1">
+           
+        </div>
 
         <div class="col-sm-4">
             <div class="thumbnail">
                 <img src="~/Progress.png" alt="New York" style="width:400px;height:250px;">
                 <p><strong>See Your Progress, See The Modules You Have Completed, Your Results etc.</strong></p>
-                <a class="btn btn-info" @*href="@Url.Action("ContentView","Content")"*@>Progress &raquo;</a>
+                <a class="btn btn-info" href="@Url.Action("UserProgressView","UserProgress")">Progress &raquo;</a>
             </div>
         </div>
 
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="~/Admin.png" alt="New York" style="width:400px;height:250px;" >
-                <p><strong>Login For The Administrators To See Usage Statistics, User Progress, Server Status etc.</strong></p>
-                <a class="btn btn-info" @*href="@Url.Action("ContentView","Content")"*@>Login &raquo;</a>
-            </div>
-        </div>
     </div>
 </div>
 
